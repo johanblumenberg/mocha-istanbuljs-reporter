@@ -1,0 +1,34 @@
+{
+  "name": "mocha-istanbuljs-reporter",
+  "version": "1.0.0",
+  "description": "Istanbul coverage instrumenter and reporter for mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanblumenberg/mocha-istanbuljs-reporter.git"
+  },
+  "keywords": [
+    "mocha",
+    "istanbul",
+    "test",
+    "coverage"
+  ],
+  "author": "johan.blumenberg@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johanblumenberg/mocha-istanbuljs-reporter/issues"
+  },
+  "homepage": "https://github.com/johanblumenberg/mocha-istanbuljs-reporter#readme",
+  "dependencies": {
+    "convert-source-map": "^1.5.1",
+    "glob": "^7.1.2",
+    "istanbul-api": "^1.2.1",
+    "istanbul-lib-coverage": "^1.1.1",
+    "istanbul-lib-instrument": "^1.9.1",
+    "source-map": "^0.5.7",
+    "source-map-support": "^0.5.3"
+  }
+}
